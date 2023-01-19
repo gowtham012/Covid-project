@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings =
+            {"appId":"28e0fb12893d545a531e162f889606c26","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>s
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/icon5.jpg" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Covid Smart Recommendation</title>
+        <link rel="icon" href="mwe-logo.jpg" type="image" sizes="16x16">
+        <meta name="keywords" content="html,css,xml,xhtml,js">
+        <meta name="description" content="marriage event maker-desgin our own event,that to not depending on others">
+        <meta name="author" content="ABHILASH KUMAR">
+        <meta name="viewport" content="width=device-width, initial-scale=0.691">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+     <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Covid Salvation </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://www.cowin.gov.in/" class="nav__link">Vaccinations</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://dashboard.cowin.gov.in" class="nav__link">India covid live</a>
+                        </li>
+                        
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/covid2.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <br><br>
+                        <span class="home__data-subtitle">Discover your place</span>
+                        <h1 class="home__data-title">Explore The <br> <b>Coronavirus </b><br>Updates <br> Now<b></h1>
+                        <a href="#" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/MoHFWIndia" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/healthministryofindia/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/MoHFW_INDIA" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 best measures for covid</span>
+                            <a href="https://www.who.int/westernpacific/emergencies/covid-19/information/transmission-protective-measures" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                          
+                              <br>
+                              
+              <center>     <div id="box" class="container">
+                <center id="contact-plate" >&nbsp;Let's put the hand together 🌏 </center>
+                
+                    <div id="login-cnt">
+              <form  action="paysubmission.php" method="post">
+              
+              <label id="label-cnt"> Name :</label>
+              <input id="label-input-cnt" type="text" name="user_name" id="name" required="required" placeholder="Your Name" class="text-center" /><br /><br />
+              <label id="label-cnt">Email :</label>
+              <input id="label-input-cnt" type="email" name="user_email" id="email" required="required" placeholder="mail" class="text-center"/><br/><br />
+                <label id="label-cnt">mobile:</label>  
+                  
+                  <input id="label-input-cnt" type="tel" id='txtPhone' class="san" maxlength="10" required="required" placeholder="valid mobile number" class="text-center" name="user_mobile"
+              pattern="[0-9]{3}[0-9]{3}[0-9]{4}"><br><br>
+              
+                  <small style="color:#f1f1f1;font-weight:900;">TRUST:valid number should be provided</small>
+              <span id="spnPhoneStatus"></span><br><br>
+                <label id="label-cnt">Address</label>  
+              <input id="label-input-cnt" type="text" name="user_address" id="email" required="required" placeholder="address" class="text-center"/><br/><br />
+              <label id="label-cnt">Destination of marriage :</label><br>
+              <input id="label-input-cnt" type="text" name="user_destiny" id="email" required="required" placeholder="destination of marriage" class="text-center"/><br/><br />
+              
+                <label id="label-cnt">Type of marriage</label><br>
+                <input id="label-input-cnt" type="text" name="user_budget" id="email" required="required" placeholder="budget" class="text-center"/><br><br>
+                <!--
+                <label><input type="checkbox" name="language[]" value="small" class="text-center"/>SMALLBUDGET:RS.70,000(APRROX.)</label><br>
+                <label><input type="checkbox" name="language[]"  value="medium"/>MEDUIMBUDGET:RS.1,10,000(APRROX.)</label><br>
+                <label><input type="checkbox" name="language[]"  value="big"/>BIGBUDGET:RS.10,00,000(APRROX.)</label><br>
+              -->
+                
+                <!--
+                <label><input type="checkbox" name="language[]"  value="hindu"/>HINDU</label><br>
+                <label><input type="checkbox" name="language[]"  value="muslim"/>MUSLIM</label><br>
+                <label><input type="checkbox" name="language[]"  value="christian">CHRISTIAN</label><br>
+                <label><input type="checkbox" name="language[]" />OTHERS</label><br>-->
+                
+                  <label id="label-cnt">**Click sudmit button first then pay the Bill**</label><br>
+              <label><input type="checkbox" class="text-center"/>I accept the follwing TERMS AND CONDITIONS</label><br>
+              <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LdpnU8bAAAAAOKYeu23-JAZ14hAZ88tvigFUdTc"></div><br>
+              <button class="button" onclick="myFunction()">
+                Submit
+                <script>
+                    function myFunction() {
+                      alert("You submitted your details pls pay the membership fee!");
+                    }
+                    </script>
+            </button>
+            <br>
+            <br>
+              <button >
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JVuCaUFHee3cq3" async> </script> </form></button>
+              
+              </form>
+              </div>
+                     </div></center>
+
+            
+
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content grid">
+                        <div class="footer__data">
+                            <h3 class="footer__title">Donate</h3>
+                            <p class="footer__description">Donate you choose the <br> hand to help, 
+                                we offer you the <br> platform.
+                            </p>
+                            <div>
+                                <a href="https://www.facebook.com/MoHFWIndia" target="_blank" class="footer__social">
+                                    <i class="ri-facebook-box-fill"></i>
+                                </a>
+                                <a href="https://twitter.com/MoHFW_INDIA" target="_blank" class="footer__social">
+                                    <i class="ri-twitter-fill"></i>
+                                </a>
+                                <a href="https://www.instagram.com/healthministryofindia/" target="_blank" class="footer__social">
+                                    <i class="ri-instagram-fill"></i>
+                                </a>
+                                <a href="https://www.youtube.com/user/mohfwindia" target="_blank" class="footer__social">
+                                    <i class="ri-youtube-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="footer__data">
+                            <h3 class="footer__subtitle">About</h3>
+                            <ul>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">About Us</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Features</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">New & Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+        
+                        <div class="footer__data">
+                            <h3 class="footer__subtitle">Company</h3>
+                            <ul>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Team</a>
+                                </li>
+
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Become a member</a>
+                                </li>
+                            </ul>
+                        </div>
+        
+                        <div class="footer__data">
+                            <h3 class="footer__subtitle">Support</h3>
+                            <ul>
+                                <li class="footer__item">
+                                    <a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Frequently+Asked+Questions+(FAQs)+on+Co-WIN_12_05_2022.pdf" class="footer__link">FAQs</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Support Center</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="footer__rights">
+                        <p class="footer__copy">&#169; 2022. All rigths reserved.</p>
+                        <div class="footer__terms">
+                            <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                            <a href="#" class="footer__terms-link">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    
+             <!--========== SCROLL UP ==========-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="ri-arrow-up-line scrollup__icon"></i>
+            </a>
+    
+            <!--=============== SCROLL REVEAL===============-->
+            <script src="assets/js/scrollreveal.min.js"></script>
+            
+            <!--=============== SWIPER JS ===============-->
+            <script src="assets/js/swiper-bundle.min.js"></script>
+    
+            <!--=============== MAIN JS ===============-->
+            <script src="assets/js/main.js"></script>
+            <style>
+        
+                *{
+                    margin: 0px;
+                    padding: 0px;
+                    scroll-behavior: smooth;
+                    box-sizing: border-box;
+                }
+                body{
+                    background-color: #ffffff;
+                     scroll-behavior: smooth;
+                }
+               #pind-name{
+                    margin:02px;
+                    padding: 03px;
+                    font-size: 40px;
+                    transform:rotate(0.1deg);
+                    font-weight:900;
+                     font-family: monospace;
+                    color: #ffffff;
+                   cursor: default;
+                   border-bottom:2px solid #f1f1f1;
+               }
+              span
+        {
+            font-weight:bold;
+        }
+           #grey-content{
+                    cursor: pointer;
+                    text-decoration: none;
+                    color: #ffffff;
+                     padding: 15px;
+                    
+                }
+                #grey-content:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                    padding: 15px;
+                        
+                }
+        h2{
+            color:green;
+            font-size:30px;
+            font-weight:900;
+            font-family:monospace;
+            margin:30px;
+            padding:30px;
+        }
+        
+            .sidenav {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index:1;
+          top: 0;
+          left:0;
+          background-color: #111;
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 60px;
+        }
+        
+        .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+        
+        .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+        
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+                    
+                .ham-menu{
+                    margin-top: 10px;
+                    background-color: gray;
+                    border: 3px solid #eee;
+                    box-shadow:0px 1px 1px #000000,0px 03px 05px #000000,0px 2px 2px #000000 ;
+                }
+                .ham-menu:hover{
+                        background: #000000;
+                    color: #000000;
+                } 
+                
+                 #box{
+                    margin: 50px;
+                    width: 700px;height:1150px;
+                    background-color:rgb(31, 50, 58);
+                    transform:rotate(05deg);
+                    border: 10px solid #f1f1f1;
+                    padding: 0px;
+                    box-shadow: 7px 10px 50px 4px rgba(0,0,0,0.71);
+        -webkit-box-shadow: 7px 10px 50px 4px rgba(0,0,0,0.71);
+        -moz-box-shadow: 7px 10px 50px 4px rgba(0,0,0,0.71);
+                  
+                  
+                }
+                #contact-plate{
+                    margin: 30px;
+                    padding: 30px;
+                    font-size: 40px;
+                    transform:rotate(-5deg);
+                    font-weight:800;
+                     font-family: 'Times New Roman', Times, serif;
+                    color: #ffffff;
+                   cursor: pointer;
+                }
+                #contact-plate:hover{
+                      border:none;
+                    border-radius: 50%;
+                
+                    box-shadow: 7px 10px 50px 4px rgba(255,255,255,0.71);
+        -webkit-box-shadow: 7px 10px 50px 4px rgba(255,255,255,0.71);
+        -moz-box-shadow: 7px 10px 50px 4px rgba(255,255,255,0.71); 
+                }
+                #label-cnt{
+                    color: #ffffff;
+                    font-family: cursive;
+                    font-size: 20px;
+                    font-weight: 400;
+                    cursor: default;
+                }
+                #login-cnt{
+                    padding: 10px;
+                    margin: 10px;
+                    transform:rotate(-5deg);
+                    
+                }
+                #label-input-cnt{
+                    background:none;
+                    border-bottom:2px solid #f1f1f1;
+                    border-top: none;
+                    border-left: none;border-right: none;
+                    text-align: center;
+                    color: #f1f1f1;
+                    font-weight: 900;
+                    padding: 3px;margin: 5px;
+                    cursor: text;
+                }
+                #label-input-cnt-sub{
+                    cursor: pointer;
+                    padding: 5px;
+                    font-weight: 900;
+                    font-family:monospace;
+                    border: none;
+                    border-radius: 30px;
+                    color:rgb(135, 162, 185);font-size: 22px;
+                }
+                #label-input-cnt-sub:hover{
+                    box-shadow: 7px 10px 50px 4px rgba(0,0,0,0.71);
+        -webkit-box-shadow: 7px 10px 50px 4px rgba(0,0,0,0.71);
+        -moz-box-shadow: 7px 10px 50px 4px rgba(0,0,0,0.71);
+                }
+            </style>
+        </body>
+    </html>

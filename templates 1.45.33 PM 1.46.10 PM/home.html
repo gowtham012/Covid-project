@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="static/img/icon5.jpg" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="static/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="static/css/styles.css">
+
+        <title>Covid Smart Recommendation</title>
+        <script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings =
+            {"appId":"28e0fb12893d545a531e162f889606c26","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Covid Salvation </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://www.cowin.gov.in/" class="nav__link">Vaccinations</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://dashboard.cowin.gov.in" class="nav__link">India covid live</a>
+                        </li>
+                        
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="static/img/martin-sanchez-j2c7yf223Mk-unsplash.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Discover your place</span>
+                        <h1 class="home__data-title">Explore The <br> <b>Coronavirus </b><br>Updates <br> Now<b></h1>
+                        <a href="#" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/MoHFWIndia" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/healthministryofindia/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/MoHFW_INDIA" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 best measures for covid</span>
+                            <a href="https://www.who.int/westernpacific/emergencies/covid-19/information/transmission-protective-measures" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="static/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">More Information: <br> About The Latest Updates of Coronavirus disease (COVID-19)</h2>
+                        <p class="about__description">Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age. 
+                        </p>
+                        <a href="https://www.who.int/health-topics/coronavirus#tab=tab_1" class="button">Know More About it</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="static/img/news1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="static/img/covid.jpeg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover the most <br> </h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="static/img/scan.jpeg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <a href="http://127.0.0.1:9000/ct"><h2 class="discover__title">CT scan </h2></a>
+                                <span class="discover__description">CT scan detection using deep learning</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="static/img/spray.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <a href="https://www.bbc.com/news/coronavirus"><h2 class="discover__title">News</h2></a>
+                                <span class="discover__description" >Newsletters</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="static/img/lockdown1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <a href="https://economictimes.indiatimes.com/topic/lockdown"><h2 class="discover__title">Lockdowns</h2></a>
+                                <span class="discover__description">update lockdown news</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="static/img/testing2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <a href="https://selfregistration.cowin.gov.in/"><h2 class="discover__title">Vaccinations</h2></a>
+                                <span class="discover__description">count of Vaccination</span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 5 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="static/img/doctors1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <a href="#"><h2 class="discover__title">Medical store</h2></a>
+                                <span class="discover__description">A hope for life</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">With Our Experience <br> We Will Serve You</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">100%</h2>
+                            <span class="experience__description">Accuracy CT<br> Predictions</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">24/7</h2>
+                            <span class="experience__description">Human<br> Assistance</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">24/7 </h2>
+                            <span class="experience__description">Pharmacy<br> delivery</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="static/img/testing1.jpg" alt="" class="experience__img-one">
+                           <br>
+                            <a  class="discover__description" href="https://www.cowin.gov.in/">CoWin</a>
+
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="static/img/vaccine1.jpg" alt="" class="experience__img-two">
+                            <a  class="discover__description" href="https://selfregistration.cowin.gov.in/">Vaccination Registration</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Find out more with our video of the most beautiful and 
+                        pleasant places for you and your family after when you and your family get vaccinated!!.
+                                                
+                    </p>
+                    <p class="video__description">Please vaccinated yourselves. 😊</p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="static/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your hand</h2>
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <section class="subscribe section">
+                        <div class="subscribe__bg">
+                            <div class="subscribe__container container">
+                                <h2 class="section__title subscribe__title">Funding for our trust <br> </h2>
+                                <p class="subscribe__description">"The best way to find yourself is to lose yourself in the service of others."
+                                    
+                                </p>
+            
+                                <form action="" class="subscribe__form">
+                                    <input type="text" placeholder="Enter email" class="subscribe__input">
+            
+                                    <button >
+                                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JVVbqjeF8w6Vcy" async> </script> </form>                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
+                        <p class="subscribe__description">Subscribe to our newsletter and get a 
+                            
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Enter email" class="subscribe__input">
+    
+                            <button class="button" onclick="myFunction()">
+                                Subscribe
+                                <script>
+                                    function myFunction() {
+                                      alert("You will get our updates!");
+                                    }
+                                    </script>
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!--==================== SPONSORS ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Words of shareholders<br> </h2>
+                        <div class="sponsor__container container grid">
+               
+                            <div class="sponsor__content">
+                                <img src="static/img/vishnu.jpeg" alt="" class="sponsor__img">
+                                <p class="subscribe__description">Mr.Vishnu S - Final year Btech <br> The value of life is not in its duration, but in its donation. <br> 
+                            </div>
+                            <div class="sponsor__content">
+                                <img src="static/img/gowtham.jpg" alt="" class="sponsor__img">
+                                <p class="subscribe__description">Mr.Gowtham kumar S - Final year Btech<br>Its not how much we earn, Its about how much we give. <br>donate to stop this pandamic.
+        
+                            </div>
+                            <div class="sponsor__content">
+                                <img src="static/img/rithika.jpeg" alt="" class="sponsor__img">
+                                <p class="subscribe__description">Ms.Rithika gupta - Final year Btech <br> Alone we can do little, together we can do so much <br>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== SPONSORS ====================-->
+            
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Donate</h3>
+                        <p class="footer__description">Donate you choose the <br> hand to help, 
+                            we offer you the <br> platform.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/MoHFWIndia" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/MoHFW_INDIA" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/healthministryofindia/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/user/mohfwindia" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+
+                            <li class="footer__item">
+                                <a href="becomeamember.html" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="https://prod-cdn.preprod.co-vin.in/static/assets/pdf/Frequently+Asked+Questions+(FAQs)+on+Co-WIN_12_05_2022.pdf" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2022. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="static/assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="static/assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="static/assets/js/main.js"></script>
+        <script>
+            function goPython(){
+                $.ajax({
+                  url: "MYSCRIPT.py",
+                 context: document.body
+                }).done(function() {
+                 alert('finished python script');;
+                });
+            }
+        </script>
+    </body>
+</html>
